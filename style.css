@@ -1,0 +1,181 @@
+/* -- Background -- */
+.sectionOne {
+    width: 100%;
+    height: 100vh;
+    background: darkcyan;
+    padding-top: 15%;
+}
+
+.sectionTwo {
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
+
+/* -- Main Content -- */
+.main-content-header {
+    width: 100%;
+}
+
+.mainpageLogo {
+    display: inline-block;
+    color: white;
+    margin-left: 45%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 30% 0 30%;
+}
+
+#main-button {
+    margin: 15px 400px 0 635px;
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid white;
+    color: darkcyan; 
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+
+
+
+
+
+
+
+/* -- Nav Bar -- */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    color: white;
+    top: 6%;
+    left: 30%;
+}
+
+.navItem a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    margin: 0 30px;
+    transition-duration: 0.4s;
+}
+
+.navItem a:hover {
+    font-size: 20px;
+}
+
+/* -- Subscribe Button (top right) -- */
+
+.button-box {
+    position: fixed;
+    top: 4%;
+    right: 3%;
+}
+
+.button {
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    border: 2px solid white;
+    color: white; 
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: darkcyan;
+    cursor: pointer;
+
+}
+
+/* -- Social Icons (bottom left) -- */
+
+.social-icons {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+}
+
+.socialCon {
+    color: white;
+    margin: 5px 0;
+    transition-duration: 0.4s;
+}
+
+.fa-border:hover {
+    color: darkcyan;
+    cursor: pointer;
+    background-color: white;
+}
+
+.fa-border {
+    background: darkcyan;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5px;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+/* -- Logo -- */
+
+.logoBox {
+    display: flex;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+
+#logo {
+    color: white;
+}
+
+#logoText {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 5px;
+    transition-duration: 0.4s;
+}
+
+#logoText:hover {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* -- Bottom Left Corner Text -- */
+
+.invision {
+    position: fixed;
+    left: 3%;
+    bottom: 5%; 
+}
+
+#invisionText {
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+}
+
+#invisionText:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
